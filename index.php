@@ -1,6 +1,6 @@
 <?php>
 
-echo "Olá mundo louco!"
+echo "Olá mundo!"
 
 
 ?>
