@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+	display: grid;
+	place-items: center;
+	background: rgb(107, 107, 241);
+	font: normal 10pt arial;
+}
+
+header {
+ color: white;
+ text-align: center;
+}
+
+section{
+	background: white;
+	border-radius: 20px;
+	padding: 15px;
+	width: 250px;
+	margin: auto;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 36);
+}
+
+div#msg {
+ text-align: center;
+ padding: 8px;
+ background: rgb(168, 147, 147);
+ text-decoration: solid;
+}
+
+div#foto {
+	text-align: center;
+	padding: 8px;
+	
+   }
+
+footer {
+ color: white;
+ text-align: center;
+ font-style: italic;
+}
+
+input#ver {
+	background-color: rgb(166, 166, 216);
+	border-radius: 25%;
+}
+
+img#foto {
+	border-radius: 25%;
+}

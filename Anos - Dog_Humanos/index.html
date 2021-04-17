@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conversor de Idade Dog/Human</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()" >
+	<header>
+      <h1>Anos de Dogs P/ Humanos</h1>
+	</header>
+
+	<section>
+      <div>
+        <p>Ano de Nascimento: 
+			<input type="number" name="txtano" min="0" id="txtano">
+		</p>
+
+		<p>Porte: 
+			<input type="radio" name="radsex" min="0" id="mas" checked >
+			<label for="mas">Pequeno</label>
+			
+			<input type="radio" name="radsex" min="0" id="fem" c >
+			<label for="fem">Médio</label>
+			
+			<input type="radio" name="radsex" min="0" id="fem" c >
+			<label for="fem">Grande</label>
+		</p>
+           <input type="button" name="ver" id="ver" value="verificar" onclick="verificar()">
+		<p>
+		</p>
+
+	  </div class="box">
+	  <div id="res">
+		  Preencha os dados acima para ver o resultado!
+	  </div>
+	</section>
+	
+	
+
+	<footer>
+		<p> &copy;Curso em Vídeo</p>
+	</footer>
+	<script src="script_01.js"></script>
+</body>
+</html>
