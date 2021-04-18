@@ -8,5 +8,5 @@ function parimpar(n) {
 
 //console.log(parimpar(2))
 
-let res = parimpar(0)
+let res = parimpar(1)
 console.log(res);
