@@ -9,17 +9,17 @@ function verificar() {
  } else {
   var fsex = document.getElementsByName('radsex')
   var idade = ano - (fano.value)
-  var dog = idade * 7
+  var dog = idade*15.5-idade*4.5
   var genero = ''
   var img = document.createElement('img')
   img.setAttribute('id', 'foto')
   //res.innerHTML = `Idade calculada de ${idade} anos`
  } if (fsex[0].checked) {
 	 genero ="Pequeno"
-	 if (idade >=0 && idade <22) {
+	 if (idade >=0 && idade <1) {
 		 //filhote
 		 img.setAttribute('src', 'imagens/bebe_menino.jpg')
-	 } else if (idade >= 10 && idade < 21) {
+	 } else if (idade >= 1 && idade < 2) {
 		 //jovem
 		 img.setAttribute('src', 'imagens/menino.jpg')
 		 
