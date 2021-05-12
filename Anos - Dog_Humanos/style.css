@@ -1,24 +1,48 @@
 @charset "UTF-8";
 
 body {
+	margin: 20px auto;
 	display: grid;
 	place-items: center;
-	background: rgb(107, 107, 241);
+	background: #eceaea;
 	font: normal 10pt arial;
 }
 
-header {
- color: white;
- text-align: center;
+#ver {
+	display: block;
+	margin: 20px auto;
 }
 
-section{
+#titu {
+ color: rgb(68, 28, 177);
+ text-align: center;
+ font-size: 20px;
+}
+
+section#modal{
 	background: white;
-	border-radius: 20px;
-	padding: 15px;
+	border-radius: 10px;
+	padding: 1rem;
 	width: 250px;
 	margin: auto;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 36);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+	max-width: 400px;
+	margin:  20px auto;
+	font-size: 1rem;
+
+}
+
+#txtano{
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: #f7f7f7;
+}
+
+#porte{
+	background: #f7f7f7;
+	width: 100%;
+	border-radius: 10px;
 }
 
 div#msg {
@@ -34,17 +58,29 @@ div#foto {
 	
    }
 
-footer {
- color: white;
- text-align: center;
- font-style: italic;
-}
-
-input#ver {
-	background-color: rgb(166, 166, 216);
-	border-radius: 25%;
+#ver {
+	padding: 0.5rem 1rem;
+	background-color:#ffb801;
+	display: block;
+	border: none;
+	font-family: sans-serif;
+	color: #8f6c19;
+	border-radius: 10px;
 }
 
 img#foto {
 	border-radius: 25%;
 }
+
+#res{
+	font-size: 11px;
+}
+
+footer {
+	color: rgb(68, 28, 177);
+	text-align: center;
+	font-style: bold;
+	width:100%;
+	border-radius: 10px;
+
+   }

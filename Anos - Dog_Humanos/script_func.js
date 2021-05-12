@@ -1,5 +1,6 @@
-function Pequeno() {
-	var dog = idade*15.5-idade*4.5
+function pequeno() {
+	img.setAttribute('src', 'imagens/bebe_menino.jpg')
+
 }
 
 function Médio() {

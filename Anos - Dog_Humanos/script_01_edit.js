@@ -1,4 +1,4 @@
-function verificar() {
+function verificar01() {
  var data = new Date()
  var ano = data.getFullYear()
  var fano = document.getElementById('txtano')
@@ -16,7 +16,7 @@ function verificar() {
   //res.innerHTML = `Idade calculada de ${idade} anos`
  } if (fsex[0].checked) {
 	 genero ="Pequeno"
-	 if (idade >=0 && idade <1) {
+     if(idade >=0 && idade <1) {
 		 //filhote
 		 img.setAttribute('src', 'imagens/bebe_menino.jpg')
 	 } else if (idade >= 1 && idade < 2) {

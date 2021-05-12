@@ -9,26 +9,26 @@
 </head>
 <body onload="carregar()" >
 	<header>
-      <h1>Conversor de Idade - Dogs P/ Humanos</h1>
+      <h1 id="titu">Conversor de Idade - Dogs p/ Humanos</h1>
 	</header>
 
-	<section>
-      <div>
+	<section id="modal" class="animar" >
+      <div >
         <p>Ano de Nascimento: 
-			<input type="number" name="txtano" min="0" id="txtano">
+			<input type="number" name="txtano" min="0" id="txtano" placeholder="Digite o ano de Nascimento do seu Dog">
 		</p>
 
-		<p>Porte:<br>
+		<p id="porte">Porte<br>
 			<input type="radio" name="radsex" min="0" id="mas" checked >
-			<label for="mas">Pequeno</label>
+			<label for="pequeno">Pequeno</label>
 			<br>
 			<input type="radio" name="radsex" min="0" id="fem" c >
-			<label for="fem">Médio</label>
+			<label for="medio">Médio</label>
 			<br>
 			<input type="radio" name="radsex" min="0" id="fem" c >
-			<label for="fem">Grande</label>
+			<label for="grande">Grande</label>
 		</p>
-           <input type="button" name="ver" id="ver" value="verificar" onclick="verificar()">
+           <input type="button" name="ver" id="ver" value="Calcular" onclick="verificar01()">
 		<p>
 		</p>
 
@@ -43,7 +43,8 @@
 	<footer>
 		<p> &copy;Mribeiro</p>
 	</footer>
-	<script src="script_01.js"></script>
+	<script src="script_01_edit.js"></script>
+	<script src="script_func.js"></script>
 </body>
 </html>
 
