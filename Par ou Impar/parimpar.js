@@ -1,4 +1,5 @@
 function parimpar(n) {
+	
 	if ( n % 2 == 0) {
 		return'PAR'
 	} else {
@@ -8,5 +9,5 @@ function parimpar(n) {
 
 //console.log(parimpar(2))
 
-let res = parimpar(1)
+let res = parimpar()
 console.log(res);
