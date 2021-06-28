@@ -41,3 +41,19 @@ body {
 	color: blue;
 	background-color: rgb(36, 35, 35);
 }
+
+aside {
+	height: auto;
+	background-color: darkorange;
+	width: 500pxpx;
+	padding: 5px;
+}
+
+aside li {
+	list-style: none;
+}
+section {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: rgb(35, 81, 233);
+}
