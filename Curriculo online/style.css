@@ -4,22 +4,22 @@
 
 h1.nome {
 	text-align: center;
+	font-size: 1.6em;
 }
 
 body {
-	background-color: rgb(167, 162, 162);
+	background-color: rgb(164, 167, 162);
 }
 
 #foto_perfil {
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	padding: 0;
 }
 
 .foto{
 	text-align: center;
-	
 }
 #menu {
 	list-style: none;
@@ -38,22 +38,25 @@ body {
 }
 
 #menu li a:hover{
-	color: blue;
-	background-color: rgb(36, 35, 35);
+	color: black;
+	background-color: rgb(18, 33, 241);
+	text-decoration: none;
+	padding: 10px;
 }
 
-aside {
-	height: auto;
-	background-color: darkorange;
-	width: 500pxpx;
-	padding: 5px;
-}
-
-aside li {
-	list-style: none;
-}
 section {
-	display: flex;
-	flex-direction: row-reverse;
-	background-color: rgb(35, 81, 233);
+	background-color: rgb(193, 193, 196);
+	padding: 0.5em;
+
 }
+
+
+li {
+ list-style-type: none;
+ padding: 0px;
+}
+
+footer {
+	background-color: blueviolet;
+}
+
